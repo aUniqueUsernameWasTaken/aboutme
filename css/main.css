@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+body {
+    background-color: #F0F5F9;
+    background-image: url("background.png");
+    background-size: 2000%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #F4EEE0;
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+h1.mainTitle {
+    color: #F4EEE0;
+    text-align: center;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+}
+
+p.quote {
+    color: #F4EEE0;
+    text-align: center;
+
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p.subPanelParagraph {
+    color: #F4EEE0;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+    padding-left: 7px;
+}
+
+div.bigBodyPanel {
+    background-color: #1E2022;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto !important;
+}
+
+div.panelHolder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.subbigBodyPanel {
+    background-color: #1e20226e;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+
+    width: initial;
+    height: auto !important;
+}
+
+div,panelHolder {
+    height: 100px;
+}
