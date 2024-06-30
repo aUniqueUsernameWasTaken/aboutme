@@ -59,7 +59,7 @@ div.bigBodyPanel {
     height: auto !important;
 
     animation-name: fade_in;
-    animation-duration: 0.25s;
+    animation-duration: 1.25s;
 }
 
 div.panelHolder {
@@ -76,7 +76,7 @@ div.subbigBodyPanel {
     margin-left: 2px;
 
     animation-name: fade_in;
-    animation-duration: 0.5s;
+    animation-duration: 1.5s;
 
     width: initial;
     height: auto !important;
