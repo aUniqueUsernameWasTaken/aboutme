@@ -68,6 +68,26 @@ div.panelHolder {
     grid-template-columns: auto auto auto;
 }
 
+div.panelHolderSecondary {
+    display: grid;
+    grid-template-columns: auto;
+/*
+    position: absolute;
+    margin-top: 829px;
+    margin-right: 8px;
+*/
+}
+
+div.panelHolderTertiary {
+    display: grid;
+    grid-template-columns: auto;
+/*
+    position: absolute;
+    margin-top: 1017px;
+    margin-right: 8px;
+    */
+}
+
 div.subbigBodyPanel {
     background-color: #1e20226e;
     border-radius: 10px;
@@ -75,6 +95,29 @@ div.subbigBodyPanel {
     margin-top: 5px;
     margin-right: 2px;
     margin-left: 2px;
+
+    
+
+
+    animation-name: fade_in;
+    animation-duration: 1.5s;
+
+    width: initial;
+    height: auto !important;
+}
+
+div.subbigBodyPanelWide {
+    background-color: #1e20226e;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+
 
     animation-name: fade_in;
     animation-duration: 1.5s;
