@@ -142,4 +142,23 @@ div,panelHolder {
         grid-template-columns: auto;
     }
 
+    div.subbigBodyPanelWide {
+        background-color: #1e20226e;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    
+        grid-column-start: 1;
+        grid-column-end: 1;
+        
+    
+    
+        animation-name: fade_in;
+        animation-duration: 1.5s;
+    
+        width: initial;
+        height: auto !important;
+    }
 }
