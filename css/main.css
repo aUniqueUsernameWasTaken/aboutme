@@ -6,8 +6,8 @@
 
 body {
     background-color: #F0F5F9;
-    background-image: url("background.png");
-    background-size: 700%;
+    background-image: url("./temp/background2.png");
+    background-size: 1000%;
     background-blend-mode: darken;
     background-repeat: no-repeat;
 }
