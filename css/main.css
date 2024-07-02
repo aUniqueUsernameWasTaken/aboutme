@@ -137,6 +137,9 @@ div,panelHolder {
 
 a {
     color: #F4EEE0;
+    animation-name: fade_in;
+    animation-duration: 1.5s;
+
 }
 
 @media (max-width:1100px){
