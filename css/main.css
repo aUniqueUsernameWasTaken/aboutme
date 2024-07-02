@@ -135,6 +135,10 @@ div,panelHolder {
     height: 100px;
 }
 
+a {
+    color: #F4EEE0;
+}
+
 @media (max-width:1100px){
 
     div.panelHolder {
